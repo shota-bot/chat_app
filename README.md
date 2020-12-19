@@ -46,7 +46,7 @@ Things you may want to cover:
 | name   | string | null: false |
 
 ## Association
- - has_many :rooms_users
+ - has_many :room_users
  - has_many :users, through: room_users
  - has_many :messages
 
